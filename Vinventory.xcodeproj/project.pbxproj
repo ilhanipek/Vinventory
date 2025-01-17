@@ -272,7 +272,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				453003832C38202C00CE5379 /* PBXTargetDependency */,
 			);
 			name = Vinventory;
 			packageProductDependencies = (
@@ -446,10 +445,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		453003832C38202C00CE5379 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 453003822C38202C00CE5379 /* SwiftLintBuildToolPlugin */;
-		};
 		45896A392C32D5E6005A7FFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 45896A262C32D5E5005A7FFE /* Vinventory */;
@@ -769,14 +764,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		453003822C38202C00CE5379 /* SwiftLintBuildToolPlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45896A862C367801005A7FFE /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = "plugin:SwiftLintBuildToolPlugin";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45896A1F2C32D5E5005A7FFE /* Project object */;
 }
